@@ -24,7 +24,7 @@ const Experience = ({ isDark }) => {
             >
               My <span className="text-blue-500"> Creations</span>
             </h1>
-            <p className="mt-4 font-medium">
+            <p className="mt-4 font-medium" data-aos="fade-down">
               A showcase of projects built using the MERN stack and React,
               demonstrating my ability to create full-stack applications and
               dynamic user experiences.
