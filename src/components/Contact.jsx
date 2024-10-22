@@ -85,7 +85,7 @@ const Contact = ({ isDark }) => {
           </a>
           <a
             href="https://github.com/PremKumarK3012"
-            className="rounded-full bg-stone-900 px-3 py-3 ml-2 text-black transition ease-in-out delay-150 hover:bg-gray-800 hover:text-emerald-500 hover:shadow-lg hover:shadow-blue-500 hover:-translate-y-1 hover:scale-110 duration-300"
+            className="rounded-full bg-stone-900 px-3 py-3 ml-2 text-white transition ease-in-out delay-150 hover:bg-gray-800 hover:text-emerald-500 hover:shadow-lg hover:shadow-blue-500 hover:-translate-y-1 hover:scale-110 duration-300"
           >
             <FaGithub size={24} />
           </a>
