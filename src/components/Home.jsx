@@ -51,7 +51,7 @@ const Home = ({ isDark }) => {
             </div>
           </div>
 
-          <div data-aos="fade-left">
+          <div data-aos="zoom-in">
             <img
               src={heroImg}
               alt="hero"
