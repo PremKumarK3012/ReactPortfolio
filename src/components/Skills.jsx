@@ -10,7 +10,7 @@ import MongoDB from "../assets/mongodb.png";
 import mysql from "../assets/sql.png";
 import tailwind from "../assets/tailwind.png";
 
-const Skills = () => {
+const Skills = ({ isDark }) => {
   const techs = [
     {
       id: 1,
@@ -52,7 +52,7 @@ const Skills = () => {
       id: 7,
       src: Nodejs,
       title: "Node JS",
-      style: "shadow-white",
+      style: "shadow-green-500",
     },
     {
       id: 8,
@@ -69,19 +69,26 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills">
+    <section
+      id="skills"
+      className={`${
+        isDark
+          ? "bg-gradient-to-b from-gray-700 via-gray-700 to-gray-800  text-white"
+          : "bg-gradient-to-b from-blue-300 via-blue-300 to-blue-200 text-black"
+      }`}
+    >
       <div className="w-full h-auto">
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
-          <div className="text-center">
-            <h1 data-aos="fade-down" className="text-4xl font-bold mt-20">
+        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full ">
+          <div data-aos="fade-down" className="text-center">
+            <h1 className="text-4xl font-bold font-head  mt-16 text-blue-600">
               Skills
             </h1>
-            {/* <div className="border-b-4 rounded-sm  mt-2"></div> */}
 
             <p className="text-center mt-2">
               These are the technologies I've worked with
             </p>
           </div>
+          {/* <div className="border-b-4 rounded-sm  mt-2"></div> */}
 
           <div
             className="w-full grid xs:grid-cols-1 mb:grid-cols-2 md:grid-cols-3 gap-8 text-center mt-5"

@@ -6,17 +6,29 @@ import profile from "../assets/profile.jpg";
 import qr from "../assets/qr.jpg";
 import todo from "../assets/todo.jpg";
 
-const Experience = () => {
+const Experience = ({ isDark }) => {
   return (
     <>
-      <section id="experience">
-        <div className="flex flex-col min-h-screen items-center justify-center">
-          <div className="text-center text-4xl text-white mt-20 font-bold">
-            <h1 data-aos="fade-down">Experience</h1>
-            <div
-              className="border-b-4 rounded-sm mx-auto mt-2"
+      <section id="projects">
+        <div
+          className={`flex flex-col min-h-screen items-center justify-center  ${
+            isDark
+              ? "bg-gradient-to-b from-gray-800 via-gray-800 to-gray-700  text-white"
+              : "bg-gradient-to-b from-blue-300 via-blue-200 to-blue-300 text-black"
+          }`}
+        >
+          <div className="text-center ">
+            <h1
               data-aos="fade-down"
-            ></div>
+              className="text-4xl mt-20 font-bold font-head"
+            >
+              My <span className="text-blue-500"> Creations</span>
+            </h1>
+            <p className="mt-4 font-medium">
+              A showcase of projects built using the MERN stack and React,
+              demonstrating my ability to create full-stack applications and
+              dynamic user experiences.
+            </p>
           </div>
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 mt-10">
             <div
@@ -56,7 +68,7 @@ const Experience = () => {
               className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
               data-aos="zoom-in"
               data-aos-easing="ease-in-back"
-              data-aos-delay="150"
+              data-aos-delay="100"
               data-aos-offset="0"
             >
               <div className="h-96 w-72">
@@ -89,7 +101,7 @@ const Experience = () => {
               className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
               data-aos="zoom-in"
               data-aos-easing="ease-in-back"
-              data-aos-delay="200"
+              data-aos-delay="150"
               data-aos-offset="0"
             >
               <div className="h-96 w-72">
@@ -123,7 +135,7 @@ const Experience = () => {
               className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
               data-aos="zoom-in"
               data-aos-easing="ease-in-back"
-              data-aos-delay="250"
+              data-aos-delay="200"
               data-aos-offset="0"
             >
               <div className="h-96 w-72">
@@ -156,7 +168,7 @@ const Experience = () => {
               className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
               data-aos="zoom-in"
               data-aos-easing="ease-in-back"
-              data-aos-delay="300"
+              data-aos-delay="250"
               data-aos-offset="0"
             >
               <div className="h-96 w-72">
@@ -189,7 +201,7 @@ const Experience = () => {
               className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
               data-aos="zoom-in"
               data-aos-easing="ease-in-back"
-              data-aos-delay="350"
+              data-aos-delay="300"
               data-aos-offset="0"
             >
               <div className="h-96 w-72">

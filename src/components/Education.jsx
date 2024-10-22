@@ -5,15 +5,21 @@ import kalai from "../assets/kalai.png";
 import clg from "../assets/clg.png";
 import wizInoaImg from "../assets/wiz.jpg";
 
-const Education = () => {
+const Education = ({ isDark }) => {
   return (
-    <section id="education" className="overflow-hidden">
+    <section
+      id="education"
+      className={`overflow-hidden ${
+        isDark
+          ? "bg-gradient-to-b from-gray-700 via-gray-800 to-gray-800  text-white"
+          : "bg-gradient-to-b from-blue-300 via-blue-300 to-blue-200 text-black"
+      }`}
+    >
       <div className="flex justify-center font-bold text-3xl">
         <div>
-          <h1 data-aos="fade-down" className="mt-20 text-white">
-            Education
+          <h1 data-aos="fade-down" className="mt-20 font-head">
+            Path to <span className="text-blue-700">Mastery</span>
           </h1>
-          <div className="h1-bor border-2" data-aos="fade-down"></div>
         </div>
       </div>
 
@@ -28,10 +34,8 @@ const Education = () => {
         <div className="container left-container">
           <img src={stpauls} alt="St.Pauls School" />
           <div className="text-box">
-            <h2 className="text-white">
-              St.Pauls Matriculation Higher Secondary School
-            </h2>
-            <small>2018-2019</small>
+            <h2>St.Pauls Matriculation Higher Secondary School</h2>
+            <small className="text-blue-700">2018-2019</small>
             <p>I successfully completed my SSLC with a score of 78%.</p>
             <span className="left-container-arrow"></span>
           </div>
@@ -41,10 +45,10 @@ const Education = () => {
         <div className="container right-container">
           <img src={kalai} alt="Sri Kalaivani School" />
           <div className="text-box">
-            <h2 className="text-white">
+            <h2 className="">
               Sri Kalaivani Matriculation Higher Secondary School
             </h2>
-            <small>2020-2021</small>
+            <small className="text-blue-700">2020-2021</small>
             <p>I successfully completed my SSC with a score of 82%.</p>
             <span className="right-container-arrow"></span>
           </div>
@@ -54,8 +58,8 @@ const Education = () => {
         <div className="container left-container">
           <img src={clg} alt="Sri Ramasamy Naidu Memorial College" />
           <div className="text-box">
-            <h2 className="text-white">Sri Ramasamy Naidu Memorial College</h2>
-            <small>2021-2024</small>
+            <h2 className="t">Sri Ramasamy Naidu Memorial College</h2>
+            <small className="text-blue-700">2021-2024</small>
             <p>
               I graduated with a B.Sc. in Computer Science, achieving a score of
               65%.
@@ -68,8 +72,8 @@ const Education = () => {
         <div className="container right-container">
           <img src={wizInoaImg} alt="Wiz Inoa Internship" />
           <div className="text-box">
-            <h2 className="text-white">Intern At Wiz Inoa</h2>
-            <small>2024</small>
+            <h2>Intern At Wiz Inoa</h2>
+            <small className="text-blue-700">2024</small>
             <p>I am currently doing a MERN stack internship in Madurai.</p>
             <span className="right-container-arrow"></span>
           </div>

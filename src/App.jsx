@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Default animation duration
+      duration: 800, // Default animation duration
       // Add any other options here
     });
   }, []);
@@ -33,14 +33,14 @@ function App() {
   return (
     <div>
       <Navbar isDark={isDark} setIsDark={setIsDark} />
-      <div className={`${isDark ? "bg-gray-800 text-white" : "bg-zinc-700 "}`}>
+      <div className="">
         <Home isDark={isDark} setIsDark={setIsDark} />
-        <About />
-        <Skills />
-        <Experience />
-        <Education />
-        <Contact />
-        <Footer />
+        <About isDark={isDark} />
+        <Skills isDark={isDark} />
+        <Experience isDark={isDark} />
+        <Education isDark={isDark} />
+        <Contact isDark={isDark} />
+
         <SocialLinks />
       </div>
     </div>

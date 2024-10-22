@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaFileAlt, FaInstagram } from "react-icons/fa";
 
 const SocialLinks = () => {
   const links = [
@@ -28,19 +27,19 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} className="text-red-300" />
+          Mail <FaInstagram size={30} className=" text-pink-500" />
         </>
       ),
-      href: "premkpk2004@gmail.com",
+      href: "https://www.instagram.com/invites/contact/?igsh=qxo5a0ciz0lv&utm_content=5zloir3",
     },
     {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} className="text-blue-500" />
+          Resume <FaFileAlt size={30} className="text-gray-200" />
         </>
       ),
-      href: "/resume.pdf",
+      href: "https://drive.google.com/file/d/1_sx72frTGPw0AVnc6xcYE6aJOzgvAYmK/view?usp=sharing",
       style: "rounded-br-md",
       download: true,
     },
