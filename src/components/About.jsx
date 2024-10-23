@@ -9,7 +9,7 @@ const About = ({ isDark }) => {
         className={`w-full h-auto ${
           isDark
             ? "bg-gradient-to-b from-gray-800 via-gray-800 to-gray-700  text-white"
-            : "bg-gradient-to-b from-blue-200 via-blue-300 to-blue-200 text-black "
+            : "bg-gradient-to-b from-blue-100 via-blue-200 to-blue-300 text-black"
         }`}
       >
         <div className="max-w-screen-lg mx-auto flex flex-col items-center h-full px-4">

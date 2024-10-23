@@ -27,7 +27,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <FaInstagram size={30} className=" text-pink-500" />
+          Instagram <FaInstagram size={30} className=" text-pink-500" />
         </>
       ),
       href: "https://www.instagram.com/invites/contact/?igsh=qxo5a0ciz0lv&utm_content=5zloir3",

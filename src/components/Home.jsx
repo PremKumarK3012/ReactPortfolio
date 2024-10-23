@@ -6,7 +6,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 const Home = ({ isDark }) => {
   const [text] = useTypewriter({
     words: ["Software Engineer", "Web Developer"],
-    loop: true, // Use true or number to define loops, {} was incorrect
+    loop: true,
   });
 
   return (

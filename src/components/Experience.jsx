@@ -11,10 +11,10 @@ const Experience = ({ isDark }) => {
     <>
       <section id="projects">
         <div
-          className={`flex flex-col min-h-screen items-center justify-center  ${
+          className={`flex flex-col min-h-screen items-center justify-center ${
             isDark
               ? "bg-gradient-to-b from-gray-800 via-gray-800 to-gray-700  text-white"
-              : "bg-gradient-to-b from-blue-300 via-blue-200 to-blue-300 text-black"
+              : "bg-gradient-to-b from-blue-300 via-blue-200 to-blue-100 text-black"
           }`}
         >
           <div className="text-center ">

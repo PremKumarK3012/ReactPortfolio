@@ -73,8 +73,8 @@ const Skills = ({ isDark }) => {
       id="skills"
       className={`${
         isDark
-          ? "bg-gradient-to-b from-gray-700 via-gray-700 to-gray-800  text-white"
-          : "bg-gradient-to-b from-blue-300 via-blue-300 to-blue-200 text-black"
+          ? "bg-gradient-to-b from-gray-800 via-gray-800 to-gray-700  text-white"
+          : "bg-gradient-to-b from-blue-100 via-blue-200 to-blue-300 text-black"
       }`}
     >
       <div className="w-full h-auto">

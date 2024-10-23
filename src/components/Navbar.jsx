@@ -31,7 +31,7 @@ const Navbar = ({ isDark, setIsDark }) => {
         className={`flex justify-between items-center w-full h-16  fixed px-4 top-0 z-20  ${
           isDark
             ? "bg-gradient-to-r from-slate-600 to-gray-700 text-white"
-            : "bg-blue-300 text-gray-700 "
+            : "bg-white text-gray-700 "
         }`}
       >
         <div>
