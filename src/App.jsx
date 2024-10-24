@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 800, // Default animation duration
+      duration: 500, // Default animation duration
       // Add any other options here
     });
   }, []);
