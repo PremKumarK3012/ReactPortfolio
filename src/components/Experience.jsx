@@ -57,7 +57,7 @@ const Experience = ({ isDark }) => {
                 </p>
                 <a
                   href="https://prem-emp.netlify.app/"
-                  className="rounded-full bg-neutral-900 hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                  className="rounded-full bg-gradient-to-r from-sky-400 to-blue-800 hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
                 >
                   See Project
                 </a>
@@ -90,7 +90,7 @@ const Experience = ({ isDark }) => {
                 </p>
                 <a
                   href="https://prempk.netlify.app/"
-                  className="rounded-full bg-neutral-900  hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                  className="rounded-full bg-gradient-to-r from-sky-400 to-blue-800   hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
                 >
                   See More
                 </a>
@@ -124,7 +124,7 @@ const Experience = ({ isDark }) => {
                 </p>
                 <a
                   href="https://reactpkweatherapp.netlify.app"
-                  className="rounded-full bg-neutral-900  hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                  className="rounded-full bg-gradient-to-r from-sky-400 to-blue-800  hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
                 >
                   See More
                 </a>
@@ -157,7 +157,7 @@ const Experience = ({ isDark }) => {
                 </p>
                 <a
                   href="https://profilecardpk.netlify.app/"
-                  className="rounded-full bg-neutral-900  hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                  className="rounded-full bg-gradient-to-r from-sky-400 to-blue-800   hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
                 >
                   See More
                 </a>
@@ -190,7 +190,7 @@ const Experience = ({ isDark }) => {
                 </p>
                 <a
                   href="https://qrcodegeneratorpk.netlify.app/"
-                  className="rounded-full bg-neutral-900  hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                  className="rounded-full bg-gradient-to-r from-sky-400 to-blue-800  hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
                 >
                   See More
                 </a>
@@ -222,7 +222,7 @@ const Experience = ({ isDark }) => {
                 </p>
                 <a
                   href="https://tolists03.netlify.app"
-                  className="rounded-full bg-neutral-900  hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                  className="rounded-full bg-gradient-to-r from-sky-400 to-blue-800  hover:bg-white hover:text-black py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
                 >
                   See More
                 </a>
