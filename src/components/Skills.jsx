@@ -91,7 +91,7 @@ const Skills = ({ isDark }) => {
           {/* <div className="border-b-4 rounded-sm  mt-2"></div> */}
 
           <div
-            className="w-full grid xs:grid-cols-1 mb:grid-cols-2 md:grid-cols-3 gap-8 text-center mt-5"
+            className="w-full grid xs:grid-cols-1 mb:grid-cols-2 md:grid-cols-3 gap-8 text-center mt-5 mb-10"
             data-aos="zoom-in"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
