@@ -37,9 +37,8 @@ const About = ({ isDark }) => {
             {/* Paragraphs with hover effect */}
             <p className="text-sm sm:text-base md:text-lg mt-4 transition-transform duration-300 ease-in-out hover:scale-105">
               Hello! I'm Prem Kumar, and I'm a passionate full-stack developer.
-              I graduated with a degree in Electrical and Electronics
-              Engineering and have been honing my skills in web development ever
-              since.
+              I graduated with a degree in Bsc Computer Science and have been
+              honing my skills in web development ever since.
             </p>
 
             <p className="text-sm sm:text-base md:text-lg mt-4 transition-transform duration-300 ease-in-out hover:scale-105">
