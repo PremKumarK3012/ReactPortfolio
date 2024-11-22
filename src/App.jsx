@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="flex flex-col">
       <Navbar isDark={isDark} setIsDark={setIsDark} />
       <div className="">
         <Home isDark={isDark} setIsDark={setIsDark} />

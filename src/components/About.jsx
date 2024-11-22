@@ -1,5 +1,5 @@
 import React from "react";
-import pro from "../assets/about-im.png";
+import heroImg from "/src/assets/p2.png";
 
 const About = ({ isDark }) => {
   return (
@@ -12,7 +12,7 @@ const About = ({ isDark }) => {
             : "bg-gradient-to-b from-blue-100 via-blue-200 to-blue-300 text-black"
         }`}
       >
-        <div className="max-w-screen-lg mx-auto flex flex-col items-center h-full px-4">
+        <div className="max-w-screen-lg mx-auto flex flex-col items-center  px-4">
           {/* Heading */}
           <div className="text-center">
             <h1
@@ -26,9 +26,9 @@ const About = ({ isDark }) => {
           {/* Image */}
           <div className="mt-5">
             <img
-              src={pro}
+              src={heroImg}
               alt="img"
-              className="rounded-full w-48 h-48 border-2 "
+              className="rounded-full w-60 h-60 border-2 "
             />
           </div>
 

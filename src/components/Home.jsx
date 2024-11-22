@@ -1,4 +1,4 @@
-import heroImg from "/src/assets/p2.png";
+import heroImg from "../assets/cropped_image.png";
 import React from "react";
 import { TbFileArrowRight } from "react-icons/tb";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -19,7 +19,7 @@ const Home = ({ isDark }) => {
             : "bg-gradient-to-b from-blue-200 via-blue-200 to-blue-300 text-black"
         }`}
       >
-        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-around h-full px-4 md:flex-row">
           <div
             className="flex flex-col justify-center h-full"
             data-aos="fade-right"
@@ -55,7 +55,7 @@ const Home = ({ isDark }) => {
             <img
               src={heroImg}
               alt="hero"
-              className="mx-auto w-4/5 border-2 rounded-full shadow-lg shadow-blue-500 mb-4"
+              className="mx-auto xs:w-72 xs:h-72 lg:w-96 lg:h-96 border-2 rounded-full shadow-lg shadow-blue-500 mb-4"
             />
           </div>
         </div>
